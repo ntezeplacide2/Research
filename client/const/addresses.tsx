@@ -1,6 +1,6 @@
 export const TRANSFER_CONTRACT_ADDRESS = '0x74678baB5C6dAAF1be7A111240CA4578067C9833';
-export const CALIM_TOKEN_CONTRACT_ADDRESS = '';
+export const CALIM_TOKEN_CONTRACT_ADDRESS = '0xcb502D1F00b5B11F8b898465014883dEaf9BC386';
 
 export const HERO_IMAGE_URL = 'ipfs://QmTPs9PGUpuFXKCfbemgJkdTbVpEWHXnc7GFNAZHZxx7A1/depositphotos_19818907-money-rain.jpg';
 export const FEATURES_IMAGE_URL = 'ipfs://QmYVENUVANEedb2X1byMvzRDEzpeB4wUH1RoyqpfNFjibq/images%20(1).jpeg';
-export const CLAIM_TOKEN_IMAGE = 'ipfs://QmYHnBqYissdmAszwBntVXQQLMM64GgLmTT4tbLumgqNHf/logo.PNG';
+export const CLAIM_TOKEN_IMAGE = 'ipfs://QmdUuA22ufAoT5ELJxSLTYSbMcpZdApJZ2rjABz8nTuH4K/Capturewww.PNG';

@@ -2,6 +2,7 @@ import { Container, Fade, Flex, Text } from "@chakra-ui/react";
 import { ConnectWallet, useAddress } from "@thirdweb-dev/react";
 import Link from "next/link";
 
+
 export default function Navbar() {
     const address = useAddress();
 
@@ -59,7 +60,11 @@ export default function Navbar() {
     >Mine your Coins</Text>
                         </Link>
                         <Link href={`/profile/${address}`}>
-                            <Text fontSize={"26"} fontFamily={"Arial, sans-serif"} fontWeight={"frames"} fontStyle={"Fade"} bgColor={"transparent"} color={"#0d0f2f"}backgroundColor="blue.100"
+                            <Text fontSize={"26"} 
+                            fontFamily={"Arial, sans-serif"} 
+                            fontWeight={"frames"} fontStyle={"Fade"}
+                             bgColor={"transparent"} color={"#0d0f2f"} 
+                             backgroundColor="blue.100"
       
       border="none"
       padding="0.75rem 1rem"

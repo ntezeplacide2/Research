@@ -26,16 +26,16 @@ export default function ClaimPage() {
                 </Flex>
                 <Flex flexDirection={"column"} justifyContent={"center"}>
                     <Stack spacing={4}>
-                        <Heading fontSize={"5xl"}>Claim ${contractMetadata?.symbol}</Heading>
-                        <Text fontSize={"xl"}>Claim your FREE ${contractMetadata?.symbol}. Just pay for the gas fee to claim your ${contractMetadata?.symbol}. Use this token to test and try the transfer feature of this dApp.</Text>
-                        <Text fontWeight={"bold"}>Claim {claimAmount} ${contractMetadata?.symbol} Tokens</Text>
+                        <Heading fontSize={"5xl"}>Mine your {contractMetadata?.symbol} Here</Heading>
+                        <Text fontSize={"xl"}>Mine your  your FREE {contractMetadata?.symbol} coins . Just pay for the gas fee to mine your ${contractMetadata?.symbol}. You can use this Coins to test and transfer to aother account befofe use .</Text>
+                        <Text fontWeight={"bold"}>Mine {claimAmount} ${contractMetadata?.symbol} Tokens</Text>
                         <Box>
                             <Web3Button
                                 contractAddress={CALIM_TOKEN_CONTRACT_ADDRESS}
                                 action={(contract) => contract.erc20.claim(claimAmount)}
                                 onSuccess={() => toast({
-                                    title: 'Claim Successful',
-                                    description: "You have successfully claimed tokens!",
+                                    title: 'Mine Successful',
+                                    description: "You have successfully got your tokens!",
                                     status: 'success',
                                     duration: 9000,
                                     isClosable: true,
